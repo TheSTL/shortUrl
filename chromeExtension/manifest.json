@@ -1,0 +1,15 @@
+{
+    "name": "ShortUrl",
+    "version": "1.0",
+    "description": "Build an Extension!",
+    "background": {
+        "scripts": ["main.js"],
+        "persistent": true
+      },
+      "permissions": [
+        "webRequestBlocking",
+        "webRequest",
+        "*://thestl/*"
+        ] ,
+     "manifest_version": 2
+  }
